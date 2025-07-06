@@ -53,8 +53,6 @@ Add a link to live demo here (e.g., GitHub Pages or Vercel)
    ```
 ## Prototype Preview
 
-## 🖼️ Prototype Preview
-
 <a href="https://www.figma.com/design/D9Prw2vNJUYqLITiGIY60A/Calculator--Community-?node-id=0-1&t=BUN0SDXq24o3FCWA-1"><img src="./images/figma-preview.png" width="400" alt="figma prototype"/></a>
 
 ## UML Component Diagram

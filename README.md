@@ -10,6 +10,7 @@ A simple calculator application built with [JavaScript / TypeScript / React] (ch
 - [Demo](#demo)
 - [Screenshots](#screenshots)
 - [Installation](#installation)
+- [Prototype Preview](#prototype-preview)
 - [UML Component Diagram](#uml-component-diagram)
 - [UML Sequence Diagram](#uml-sequence-diagram)
 - [Flowchart](#flowchart)
@@ -43,13 +44,18 @@ Add a link to live demo here (e.g., GitHub Pages or Vercel)
 
 ## Installation
 
-1. Clone the repo
+1. Clone the repo![Screenshot 2025-07-06 at 10.27.24.png](../../Documents/Screenshot%202025-07-06%20at%2010.27.24.png)
    ```bash
    git clone https://github.com/yanabkv/calculator-js.git
    cd calculator-js
    npm install
    npm start
    ```
+## Prototype Preview
+
+## 🖼️ Prototype Preview
+
+<a href="https://www.figma.com/design/D9Prw2vNJUYqLITiGIY60A/Calculator--Community-?node-id=0-1&t=BUN0SDXq24o3FCWA-1"><img src="./images/figma-preview.png" width="400" alt="figma prototype"/></a>
 
 ## UML Component Diagram
 
@@ -57,11 +63,11 @@ Add a link to live demo here (e.g., GitHub Pages or Vercel)
 
 ## UML Sequence Diagram
 
-<img src="./images/uml-sequence.png-diagram.png" width="400" alt="component diagram"/>
+<img src="./images/uml-sequence.png-diagram.png" width="400" alt="sequence diagram"/>
 
 ## Flowchart
 
-<img src="./images/flowchart.png" width="300" alt="component diagram"/>
+<img src="./images/flowchart.png" width="300" alt="flowchart diagram"/>
 
 I created diagrams using https://plantuml.com/
 

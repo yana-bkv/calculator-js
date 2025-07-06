@@ -63,7 +63,7 @@ Add a link to live demo here (e.g., GitHub Pages or Vercel)
 
 ## UML Sequence Diagram
 
-<img src="./images/uml-sequence.png-diagram.png" width="400" alt="sequence diagram"/>
+<img src="./images/uml-sequence.png" width="400" alt="sequence diagram"/>
 
 ## Flowchart
 

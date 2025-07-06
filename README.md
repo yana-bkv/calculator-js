@@ -44,7 +44,7 @@ Add a link to live demo here (e.g., GitHub Pages or Vercel)
 
 ## Installation
 
-1. Clone the repo![Screenshot 2025-07-06 at 10.27.24.png](../../Documents/Screenshot%202025-07-06%20at%2010.27.24.png)
+1. Clone the repo
    ```bash
    git clone https://github.com/yanabkv/calculator-js.git
    cd calculator-js

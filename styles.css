@@ -1,0 +1,26 @@
+/*button bg color #002235 */
+/*button text color #FBFBFB */
+
+main {
+    width: 423px;
+    height: 858px;
+
+    background: linear-gradient(to right, #252628, #000309);
+    color: #FBFBFB;
+}
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px 70px 70px;
+
+    background: linear-gradient(to left, #42869B, #2A7DA1, #224E91, #00123F);
+}
+
+.buttons-grid > button {
+    background-color: #002235;
+    color: #FBFBFB;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+}

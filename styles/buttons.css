@@ -1,20 +1,34 @@
-.buttons-grid {
+.calculator-grid {
     background: var(--buttons-bg);
 
     border-radius: 25px 25px 50px 50px;
+    padding: 34px;
 }
 
-.buttons-grid > button {
-    background-color: var(--button-bg);
+.calculator-grid button {
     color: var(--text);
-    box-shadow : var(--button-shadow);
+    background: none;
 
+    width: 70px;
+    height: 70px;
     border: none;
     font-family: "Poppins", sans-serif;
     font-size: 26px;
     font-weight: bold;
+    border-radius: 50px;
 }
 
-.operation-btn {
+.calculator-utilities,
+.calculator-operators {
+    background-color: var(--button-bg-section);
+    border-radius: 50px;
+}
+
+.calculator-numbers > button {
     background-color: var(--button-bg);
+    border-radius: 50px;
+}
+
+.calculator-operators--equal {
+    background-color: var(--button-bg-dark) !important;
 }

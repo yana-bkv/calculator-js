@@ -3,17 +3,34 @@ main {
     align-items: end;
 }
 
-.buttons-grid {
+.calculator-grid {
     display: grid;
-    grid-template-columns: 70px 70px 70px 70px;
-    grid-template-rows: 70px 70px 70px 70px 70px;
+    grid-template-columns: 70% 20%;
     gap: 20px;
-
-    padding: 34px;
 }
 
-.buttons-grid > button {
-    border-radius: 50px;
-    width: 70px;
-    height: 70px;
+.calculator-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.calculator-numbers,
+.calculator-utilities {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.calculator-operators {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+
+    justify-content: center;
+}
+
+.calculator-grid button:hover {
+    background-color: var(--button-bg-hover);
+    cursor: pointer;
 }

@@ -11,11 +11,14 @@
 
     --buttons-bg: linear-gradient(
             to top right,
-            rgb(0, 34, 53) 12%,
-            rgba(19, 63, 100, 0.6) 28%,
-            rgba(23, 73, 105, 0.7) 65%,
-            rgba(25, 82, 111, 0.9) 100%
+            rgb(0, 34, 53) 0%,
+            rgba(19, 63, 100) 58%,
+            rgba(23, 73, 105) 85%,
+            rgba(25, 82, 111) 100%
     );
-    --button-bg: #0C2439;
-    --button-shadow:  2px 2px 8px rgba(0, 0, 0, 0.2);
+    --button-bg: rgba(9, 23, 37, 0.6);
+    --button-bg-dark: rgba(11, 32, 51, 0.8);
+    --button-bg-section: #0E2C43;
+
+    --button-bg-hover: #0B2030;
 }

@@ -1,0 +1,19 @@
+main {
+    display: grid;
+    align-items: end;
+}
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px 70px 70px;
+    gap: 20px;
+
+    padding: 34px;
+}
+
+.buttons-grid > button {
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+}

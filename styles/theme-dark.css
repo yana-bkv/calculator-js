@@ -1,0 +1,21 @@
+:root[data-theme="dark"] {
+    --bg: linear-gradient(
+            to bottom right,
+            #373737 0%,
+            #252628 23%,
+            #000309 100%
+    );
+    --text: #FBFBFB;
+
+
+
+    --buttons-bg: linear-gradient(
+            to top right,
+            rgb(0, 34, 53) 12%,
+            rgba(19, 63, 100, 0.6) 28%,
+            rgba(23, 73, 105, 0.7) 65%,
+            rgba(25, 82, 111, 0.9) 100%
+    );
+    --button-bg: #0C2439;
+    --button-shadow:  2px 2px 8px rgba(0, 0, 0, 0.2);
+}

@@ -1,8 +1,19 @@
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <title>Calculator</title>
-  <link rel="stylesheet" href="styles.css" />
+
+  <link rel="stylesheet" href="styles/variables.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/buttons.css">
+  <link rel="stylesheet" href="styles/calculator.css">
+  <link rel="stylesheet" href="styles/theme-dark.css">
+  <link rel="stylesheet" href="styles/theme-light.css" id="theme">
+<!--  fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
   <main>
@@ -19,27 +30,27 @@
       <button type="button" aria-label="Delete number">AC</button>
       <button type="button" aria-label="Number +/-">+/-</button>
       <button type="button" aria-label="Operation %">%</button>
-      <button type="button" aria-label="Operation ÷">÷</button>
+      <button class="operation-btn" type="button" aria-label="Operation ÷">÷</button>
 
       <button type="button" aria-label="Number 1">1</button>
       <button type="button" aria-label="Number 2">2</button>
       <button type="button" aria-label="Number 3">3</button>
-      <button type="button" aria-label="Operation ×">×</button>
+      <button class="operation-btn"  type="button" aria-label="Operation ×">×</button>
 
       <button type="button" aria-label="Number 4">4</button>
       <button type="button" aria-label="Number 5">5</button>
       <button type="button" aria-label="Number 6">6</button>
-      <button type="button" aria-label="Operation -">-</button>
+      <button class="operation-btn"  type="button" aria-label="Operation -">-</button>
 
       <button type="button" aria-label="Number 7">7</button>
       <button type="button" aria-label="Number 8">8</button>
       <button type="button" aria-label="Number 9">9</button>
-      <button type="button" aria-label="Operation +">+</button>
+      <button class="operation-btn"  type="button" aria-label="Operation +">+</button>
 
       <button type="button" aria-label="">.</button>
       <button type="button" aria-label="Number 0">0</button>
       <button type="button" aria-label="Number 00">00</button>
-      <button type="button" aria-label="Equals">=</button>
+      <button class="operation-btn"  type="button" aria-label="Equals">=</button>
     </div>
   </main>
 </body>

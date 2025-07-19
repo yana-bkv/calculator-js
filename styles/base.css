@@ -1,0 +1,8 @@
+main {
+    width: 423px;
+    height: 858px;
+    border-radius: 50px;
+
+    background: var(--bg);
+    color: var(--text);
+}

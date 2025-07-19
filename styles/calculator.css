@@ -1,0 +1,16 @@
+.calculator-display {
+
+}
+
+.calculator-display__input {
+    font-size: 22px;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.calculator-display__equal-sign {
+    font-size: 26px;
+}
+
+.calculator-display__result {
+    font-size: 40px;
+}

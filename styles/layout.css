@@ -5,27 +5,27 @@ main {
 
 .calculator-grid {
     display: grid;
-    grid-template-columns: 70% 20%;
-    gap: 20px;
+    grid-template-columns: 75% 20%;
+    gap: 25px;
 }
 
 .calculator-left {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
 }
 
 .calculator-numbers,
 .calculator-utilities {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 25px;
 }
 
 .calculator-operators {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    gap: 20px;
+    gap: 25px;
 
     justify-content: center;
 }

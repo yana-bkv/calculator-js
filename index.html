@@ -1,45 +1,69 @@
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculator</title>
-  <link rel="stylesheet" href="styles.css" />
+
+  <link rel="stylesheet" href="styles/variables.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/buttons.css">
+  <link rel="stylesheet" href="styles/calculator.css">
+  <link rel="stylesheet" href="styles/theme-dark.css">
+  <link rel="stylesheet" href="styles/theme-light.css" id="theme">
+<!--  fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Poppins&display=swap" rel="stylesheet">
 </head>
-<body>
-  <main>
-    <div class="display">
-      <span>Day/Night</span>
-      <span>History</span>
-      <div>
-        <span>1.000 × 4 + 2 × 1</span>
-        <span>=</span>
-        <output id="display" aria-live="polite">0</output>
+<body >
+  <main class="calculator">
+    <div class="calculator__display">
+      <div class="calculator__header">
+        <div class="calculator__theme-switch">
+          <div class="calculator__sun"><img src="images/sun-dark.png" alt="Sun"></div>
+          <div class="calculator__moon"><img src="images/moon-dark.png" alt="Moon"></div>
+        </div>
+        <div class="calculator__history"><img src="images/history-dark.png" alt="History"></div>
+      </div>
+      <div class="calculator__content">
+        <div class="calculator__input">1.000 × 4 + 2 × 1</div>
+        <div class="calculator__equal">=</div>
+        <div class="calculator__result" aria-live="polite">4002</div>
       </div>
     </div>
-    <div class="buttons-grid">
-      <button type="button" aria-label="Delete number">AC</button>
-      <button type="button" aria-label="Number +/-">+/-</button>
-      <button type="button" aria-label="Operation %">%</button>
-      <button type="button" aria-label="Operation ÷">÷</button>
+    <div class="calculator__keypad">
+      <div class="calculator__left">
+        <div class="calculator__utilities">
+          <button class="calculator__button" type="button" aria-label="Delete number">AC</button>
+          <button class="calculator__button" type="button" aria-label="Number +/-">+/-</button>
+          <button class="calculator__button" type="button" aria-label="Operation %">%</button>
+        </div>
+        <div class="calculator__numbers">
+          <button class="calculator__button" type="button" aria-label="Number 1">1</button>
+          <button class="calculator__button" type="button" aria-label="Number 2">2</button>
+          <button class="calculator__button" type="button" aria-label="Number 3">3</button>
 
-      <button type="button" aria-label="Number 1">1</button>
-      <button type="button" aria-label="Number 2">2</button>
-      <button type="button" aria-label="Number 3">3</button>
-      <button type="button" aria-label="Operation ×">×</button>
+          <button class="calculator__button" type="button" aria-label="Number 4">4</button>
+          <button class="calculator__button" type="button" aria-label="Number 5">5</button>
+          <button class="calculator__button" type="button" aria-label="Number 6">6</button>
 
-      <button type="button" aria-label="Number 4">4</button>
-      <button type="button" aria-label="Number 5">5</button>
-      <button type="button" aria-label="Number 6">6</button>
-      <button type="button" aria-label="Operation -">-</button>
+          <button class="calculator__button" type="button" aria-label="Number 7">7</button>
+          <button class="calculator__button" type="button" aria-label="Number 8">8</button>
+          <button class="calculator__button" type="button" aria-label="Number 9">9</button>
 
-      <button type="button" aria-label="Number 7">7</button>
-      <button type="button" aria-label="Number 8">8</button>
-      <button type="button" aria-label="Number 9">9</button>
-      <button type="button" aria-label="Operation +">+</button>
+          <button class="calculator__button" type="button" aria-label="">.</button>
+          <button class="calculator__button" type="button" aria-label="Number 0">0</button>
+          <button class="calculator__button" type="button" aria-label="Number 00">00</button>
+        </div>
+      </div>
+      <div class="calculator__operators">
+        <button class="calculator__button" type="button" aria-label="Operation ÷">÷</button>
+        <button class="calculator__button" type="button" aria-label="Operation ×">×</button>
+        <button class="calculator__button" type="button" aria-label="Operation -">-</button>
+        <button class="calculator__button" type="button" aria-label="Operation +">+</button>
+        <button class="calculator__button calculator__button_equal"  type="button" aria-label="Equals">=</button>
+      </div>
 
-      <button type="button" aria-label="">.</button>
-      <button type="button" aria-label="Number 0">0</button>
-      <button type="button" aria-label="Number 00">00</button>
-      <button type="button" aria-label="Equals">=</button>
     </div>
   </main>
 </body>

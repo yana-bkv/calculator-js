@@ -1,10 +1,26 @@
+body {
+    display: flex;
+    min-height: 900px;
+    justify-content: center; /* horizontal */
+    align-items: center;
+    background-color: #E5E5E5;
+
+}
+
 main {
-    width: 423px;
-    height: 858px;
-    border-radius: 37px;
-
+    min-width: var(--calculator-width);
+    max-width: var(--calculator-width);
+    margin: var(--spacing-l) var(--spacing-xxl);
+    font-weight: bolder;
+    color: var(--text-color);
     background: var(--bg);
-    color: var(--text);
+    border-radius: var(--border-radius-medium);
+    font-family: var(--font), sans-serif;
+}
 
-    font-family: "Poppins", sans-serif;
+.calculator__keypad {
+    width: 100%;
+    max-width: var(--calculator-width);
+    margin: 0 auto;
+    box-sizing: border-box;
 }

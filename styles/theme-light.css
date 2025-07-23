@@ -1,0 +1,32 @@
+:root[data-theme="light"] {
+    /* All section */
+    --bg: linear-gradient(
+            to bottom right,
+            #FEFEFE 0%,
+            #F9F9F9 13%,
+            #F3F3F3 33%,
+            #E5E5E5 100%
+    );
+    --text-color: #373737;
+    --text-color-2: rgb(55 55 55 / 50%);
+    --shadow-soft: 0 1px 12px rgb(0 0 0 / 8%);
+
+    /* Display */
+
+    /* Theme switcher */
+    --sun-bg: #D8EEFF;
+    --moon-bg: #A9DCFD;
+
+    /* Keypad */
+    --buttons-bg: linear-gradient(
+            to top right,
+            #A9C8F5 2%,
+            #93C2F6 28%,
+            #92CFFD 65%,
+            #92D9FD 100%
+    );
+    --button-bg: rgb(255 255 255 / 30%);
+    --button-bg-dark: rgb(255 255 255 / 20%);
+    --button-bg-section: rgb(255 255 255 / 30%);
+    --button-bg-hover: rgb(255 255 255 / 40%);
+}

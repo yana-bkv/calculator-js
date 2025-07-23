@@ -1,18 +1,18 @@
 {
   "extends": "stylelint-config-standard",
-  "plugins": ["stylelint-order"],
+  "plugins": [
+    "stylelint-order"
+  ],
   "rules": {
+    "selector-class-pattern": null,
     "order/properties-order": [
       [
-        // Position
         "position",
         "top",
         "right",
         "bottom",
         "left",
         "z-index",
-
-        // Box Model
         "display",
         "flex",
         "grid",
@@ -25,8 +25,6 @@
         "margin",
         "padding",
         "box-sizing",
-
-        // Flex/Grid
         "flex-direction",
         "flex-wrap",
         "justify-content",
@@ -35,8 +33,6 @@
         "gap",
         "grid-template-columns",
         "grid-template-rows",
-
-        // Typography
         "font",
         "font-size",
         "font-weight",
@@ -46,8 +42,6 @@
         "text-transform",
         "text-decoration",
         "color",
-
-        // Visual
         "background",
         "background-color",
         "border",
@@ -55,12 +49,8 @@
         "box-shadow",
         "opacity",
         "overflow",
-
-        // Effects
         "transition",
         "animation",
-
-        // Misc
         "cursor",
         "user-select"
       ],

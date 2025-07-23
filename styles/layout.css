@@ -1,36 +1,83 @@
-main {
+.calculator {
     display: grid;
-    align-items: end;
 }
 
-.calculator-grid {
+/* Display */
+.calculator__display {
     display: grid;
-    grid-template-columns: 75% 20%;
-    gap: 25px;
 }
 
-.calculator-left {
+.calculator__header {
+    position: relative;
+    top: 50px;
+    display: grid;
+    max-height: 50px;
+    gap: var(--gap);
+    grid-template-columns: auto 1fr;
+}
+
+.calculator__theme-switch {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.calculator__history {
+    position: absolute;
+    right: 10%;
+}
+
+.calculator__sun, .calculator__moon {
+    display: inline-block;
+}
+
+.calculator__content {
+    position: relative;
+    display: grid;
+}
+
+.calculator__input {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+.calculator__equal {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.calculator__result {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
+
+/* Keypad */
+.calculator__keypad {
+    display: grid;
+    gap: var(--gap);
+    grid-template-columns: 3fr 1fr;
+}
+
+.calculator__left {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    justify-content: center; /* по горизонтали */
+    align-items: center;
+    gap: var(--gap);
 }
 
-.calculator-numbers,
-.calculator-utilities {
+.calculator__numbers,
+.calculator__utilities {
     display: grid;
+    gap: var(--gap);
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
 }
 
-.calculator-operators {
+.calculator__operators {
     display: grid;
+    gap: var(--gap);
     grid-template-rows: repeat(3, 1fr);
-    gap: 25px;
-
-    justify-content: center;
-}
-
-.calculator-grid button:hover {
-    background-color: var(--button-bg-hover);
-    cursor: pointer;
 }

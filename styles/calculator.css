@@ -4,25 +4,30 @@
 
 /* Header */
 .calculator__theme-switch {
+    width: 130px;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--sun-bg);
     border-radius: var(--border-radius-medium);
     box-shadow: var(--shadow-soft);
+    transition: background-color .3s;
+}
+
+.calculator__theme-switch:hover {
+    cursor: pointer;
+}
+
+.calculator__sun {
+    justify-items: left;
+}
+
+.calculator__moon {
+    justify-items: right;
 }
 
 .calculator__theme-switch img {
     width: var(--icon-size);
     height: var(--icon-size);
-}
-
-.calculator__moon {
-    padding: var(--spacing-s) var(--spacing-xl);
-    background-color: var(--moon-bg);
-    border-radius: var(--border-radius-medium);
-
-}
-
-.calculator__sun {
-    padding: var(--spacing-s) var(--spacing-xs) var(--spacing-s) var(--spacing-l);
 }
 
 .calculator__history {

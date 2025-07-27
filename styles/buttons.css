@@ -38,6 +38,8 @@
     background-color: var(--button-bg-section);
     border-radius: var(--border-radius-big);
     box-shadow: var(--shadow-soft);
+    transition: background-color .3s;
+
 }
 
 .calculator__operators {
@@ -50,4 +52,39 @@
 
 .calculator__button_equal:hover {
     background-color: var(--button-bg) !important;
+}
+
+/* Toggle slider */
+.theme-toggle__slider {
+    position: absolute;
+    z-index: 0;
+    width: 55%;
+    height: 100%;
+    background-color: var(--moon-bg);
+    border-radius: 999px;
+    transition: transform 0.3s ease;
+}
+
+.calculator__icon img {
+    width: 24px;
+    opacity: 0.99;
+    transition: opacity 0.3s ease;
+}
+
+html[data-theme="light"] .theme-toggle__slider {
+    transform: translateX(-8%);
+}
+
+html[data-theme="dark"] .theme-toggle__slider {
+    transform: translateX(82%);
+}
+
+html[data-theme="light"] .theme-toggle__icon--sun img,
+html[data-theme="dark"] .theme-toggle__icon--moon img {
+    opacity: 1;
+}
+
+.calculator__icon {
+    z-index: 1;
+    padding: var(--spacing-s) var(--spacing-m);
 }

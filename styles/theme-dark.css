@@ -28,3 +28,14 @@
     --button-bg-section: #0E2C43;
     --button-bg-hover: #0B2030;
 }
+
+/* Скрыть светлые иконки в тёмной теме */
+html[data-theme="dark"] .calculator__history--light,
+html[data-theme="dark"] .calculator__icon--light {
+    display: none;
+}
+
+html[data-theme="dark"] .calculator__history--dark,
+html[data-theme="dark"] .calculator__icon--dark {
+    display: inline-block;
+}

@@ -30,3 +30,14 @@
     --button-bg-section: rgb(255 255 255 / 30%);
     --button-bg-hover: rgb(255 255 255 / 40%);
 }
+
+/* Скрыть тёмные иконки в светлой теме */
+html[data-theme="light"] .calculator__history--dark,
+html[data-theme="light"] .calculator__icon--dark {
+    display: none;
+}
+
+html[data-theme="light"] .calculator__history--light,
+html[data-theme="light"] .calculator__icon--light {
+    display: inline-block;
+}
